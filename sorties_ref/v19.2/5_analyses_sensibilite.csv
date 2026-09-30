@@ -1,0 +1,7 @@
+﻿scenario;source;officiel_couverture;officiel_vraisemblance;A_seuil2_couverture;A_seuil2_vraisemblance;B_groupes_compares;B_couverture;B_vraisemblance
+SO1;SR4 Crime organisé;7/7 (1.00);V3 Très vraisemblable;7/7 (1.00);V3 Très vraisemblable;groupes à motivation financière;6/7 (0.86);V3 Très vraisemblable
+SO2;SR4 Crime organisé;7/8 (0.88);V3 Très vraisemblable;6/8 (0.75);V3 Très vraisemblable;groupes à motivation financière;5/8 (0.62);V2 Vraisemblable
+SO3;SR5 Groupe étatique;6/6 (1.00);V3 Très vraisemblable;5/6 (0.83);V3 Très vraisemblable;groupes d'espionnage;6/6 (1.00);V3 Très vraisemblable
+SO4;SR5 Groupe étatique;8/8 (1.00);V3 Très vraisemblable;6/8 (0.75);V3 Très vraisemblable;groupes d'espionnage;7/8 (0.88);V3 Très vraisemblable
+SO5;SR7 Collaborateur malveillant;4/5 (0.80);V4 Certain;4/5 (0.80);V4 Certain;non applicable (source interne);—;—
+SO6;SR8 Ancien employé;6/6 (1.00);V3 Très vraisemblable;5/6 (0.83);V3 Très vraisemblable;non applicable (source interne);—;—

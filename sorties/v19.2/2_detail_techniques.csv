@@ -1,0 +1,41 @@
+﻿scenario;technique;nom;observee;nb_groupes;groupes
+SO1;T1595;Active Scanning;oui;4;"APT41 (G0096); Aquatic Panda (G0143); Earth Lusca (G1006); Ember Bear (G1003)"
+SO1;T1566;Phishing;oui;8;"APT19 (G0073); APT39 (G0087); APT41 (G0096); Earth Lusca (G1006); Machete (G0095); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO1;T1078;Valid Accounts;oui;10;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO1;T1133;External Remote Services;oui;6;"APT41 (G0096); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015)"
+SO1;T1087;Account Discovery;oui;6;"APT41 (G0096); Aquatic Panda (G0143); LAPSUS$ (G1004); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO1;T1548;Abuse Elevation Control Mechanism;oui;3;"Earth Lusca (G1006); MuddyWater (G0069); UNC3886 (G1048)"
+SO1;T1486;Data Encrypted for Impact;oui;2;"APT41 (G0096); Scattered Spider (G1015)"
+SO2;T1595;Active Scanning;oui;4;"APT41 (G0096); Aquatic Panda (G0143); Earth Lusca (G1006); Ember Bear (G1003)"
+SO2;T1566;Phishing;oui;8;"APT19 (G0073); APT39 (G0087); APT41 (G0096); Earth Lusca (G1006); Machete (G0095); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO2;T1078;Valid Accounts;oui;10;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO2;T1133;External Remote Services;oui;6;"APT41 (G0096); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015)"
+SO2;T1548;Abuse Elevation Control Mechanism;oui;3;"Earth Lusca (G1006); MuddyWater (G0069); UNC3886 (G1048)"
+SO2;T1087;Account Discovery;oui;6;"APT41 (G0096); Aquatic Panda (G0143); LAPSUS$ (G1004); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO2;T1059.008;Network Device CLI;oui;1;UNC3886 (G1048)
+SO2;T1565;Data Manipulation;non;0;
+SO3;T1595;Active Scanning;oui;4;"APT41 (G0096); Aquatic Panda (G0143); Earth Lusca (G1006); Ember Bear (G1003)"
+SO3;T1078.004;Cloud Accounts;oui;3;"APT5 (G1023); LAPSUS$ (G1004); Scattered Spider (G1015)"
+SO3;T1087;Account Discovery;oui;6;"APT41 (G0096); Aquatic Panda (G0143); LAPSUS$ (G1004); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO3;T1548;Abuse Elevation Control Mechanism;oui;3;"Earth Lusca (G1006); MuddyWater (G0069); UNC3886 (G1048)"
+SO3;T1005;Data from Local System;oui;7;"APT39 (G0087); APT41 (G0096); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049)"
+SO3;T1602.002;Network Device Configuration Dump;oui;1;Salt Typhoon (G1045)
+SO4;T1566;Phishing;oui;8;"APT19 (G0073); APT39 (G0087); APT41 (G0096); Earth Lusca (G1006); Machete (G0095); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO4;T1539;Steal Web Session Cookie;oui;1;Scattered Spider (G1015)
+SO4;T1078;Valid Accounts;oui;10;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO4;T1087;Account Discovery;oui;6;"APT41 (G0096); Aquatic Panda (G0143); LAPSUS$ (G1004); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO4;T1548;Abuse Elevation Control Mechanism;oui;3;"Earth Lusca (G1006); MuddyWater (G0069); UNC3886 (G1048)"
+SO4;T1602.002;Network Device Configuration Dump;oui;1;Salt Typhoon (G1045)
+SO4;T1048;Exfiltration Over Alternative Protocol;oui;4;"APT41 (G0096); OilRig (G0049); Salt Typhoon (G1045); Thrip (G0076)"
+SO4;T1567;Exfiltration Over Web Service;oui;6;"APT41 (G0096); Earth Lusca (G1006); Ember Bear (G1003); HEXANE (G1001); MuddyWater (G0069); Scattered Spider (G1015)"
+SO5;T1078;Valid Accounts;oui;10;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO5;T1518.001;Security Software Discovery;oui;2;"Aquatic Panda (G0143); MuddyWater (G0069)"
+SO5;T1018;Remote System Discovery;oui;8;"APT39 (G0087); APT41 (G0096); Deep Panda (G0009); Earth Lusca (G1006); Ember Bear (G1003); GALLIUM (G0093); HEXANE (G1001); Scattered Spider (G1015)"
+SO5;T1565;Data Manipulation;non;0;
+SO5;T1070;Indicator Removal;oui;9;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); Metador (G1013); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO6;T1078;Valid Accounts;oui;10;"APT39 (G0087); APT41 (G0096); APT5 (G1023); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049); Scattered Spider (G1015); UNC3886 (G1048)"
+SO6;T1087;Account Discovery;oui;6;"APT41 (G0096); Aquatic Panda (G0143); LAPSUS$ (G1004); MuddyWater (G0069); OilRig (G0049); Scattered Spider (G1015)"
+SO6;T1005;Data from Local System;oui;7;"APT39 (G0087); APT41 (G0096); Aquatic Panda (G0143); Ember Bear (G1003); GALLIUM (G0093); LAPSUS$ (G1004); OilRig (G0049)"
+SO6;T1602.002;Network Device Configuration Dump;oui;1;Salt Typhoon (G1045)
+SO6;T1048;Exfiltration Over Alternative Protocol;oui;4;"APT41 (G0096); OilRig (G0049); Salt Typhoon (G1045); Thrip (G0076)"
+SO6;T1567;Exfiltration Over Web Service;oui;6;"APT41 (G0096); Earth Lusca (G1006); Ember Bear (G1003); HEXANE (G1001); MuddyWater (G0069); Scattered Spider (G1015)"

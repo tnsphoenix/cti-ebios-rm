@@ -1,0 +1,32 @@
+Chaîne CTI -> EBIOS RM (mémoire Telco)
+======================================
+
+Contenu
+- cti_ebios.py                : chaîne principale (règles R1 à R5 décrites en tête du fichier)
+- analyses_complementaires.py : sensibilité, correspondance source/type de groupe, comparaison de versions
+- figures.py                  : figures du mémoire
+- sorties/v19.2/              : résultats sur ATT&CK Enterprise v19.2 (version de référence)
+    0_groupes_telecom.csv          22 groupes retenus
+    1_synthese_scenarios.csv       couverture, vraisemblance et risque avant / après CTI
+    2_detail_techniques.csv        pour chaque technique : groupes télécom qui l'utilisent
+    3_angles_morts.csv             techniques fréquentes absentes des scénarios
+    4_mitigations_prioritaires.csv mitigations ATT&CK classées (atelier 5)
+    5_analyses_sensibilite.csv     analyses A et B
+    6_evolution_versions.csv       ce qui change entre ATT&CK v15.1 et v19.2
+    couche_navigator.json          à ouvrir dans ATT&CK Navigator (Open Existing Layer > Upload)
+- sorties/v15.1/              : mêmes résultats sur ATT&CK v15.1 (avril 2024)
+- sorties/figure_*.png        : figures
+
+Reproduire
+1. pip install mitreattack-python   (uniquement pour le contrôle croisé)
+2. Télécharger les données STIX dans data/ :
+   https://github.com/mitre-attack/attack-stix-data/tree/master/enterprise-attack
+   (enterprise-attack-19.2.json et enterprise-attack-15.1.json)
+3. python3 cti_ebios.py data/enterprise-attack-19.2.json sorties/v19.2
+   python3 cti_ebios.py data/enterprise-attack-15.1.json sorties/v15.1
+   python3 analyses_complementaires.py data/enterprise-attack-15.1.json data/enterprise-attack-19.2.json sorties/v19.2
+   python3 figures.py
+
+Les fichiers CSV utilisent le point-virgule et s'ouvrent directement dans Excel.
+Contrôle : les 40 comptages de techniques ont été vérifiés avec la bibliothèque
+officielle mitreattack-python (0 écart).

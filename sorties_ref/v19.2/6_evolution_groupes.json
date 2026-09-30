@@ -1,0 +1,13 @@
+{
+ "version_ancienne": "15.1",
+ "version_recente": "19.2",
+ "groupes_telecom_ancienne": 18,
+ "groupes_telecom_recente": 22,
+ "groupes_ajoutes": {
+  "G1045": "Salt Typhoon",
+  "G1048": "UNC3886",
+  "G1003": "Ember Bear",
+  "G1034": "Daggerfly"
+ },
+ "groupes_retires": {}
+}

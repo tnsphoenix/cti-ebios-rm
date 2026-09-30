@@ -1,0 +1,7 @@
+﻿scenario;nom;source_de_risque;techniques;observees;couverture;vraisemblance_initiale;vraisemblance_cti;evolution;gravite;risque_initial;risque_cti
+SO1;Compromission d'un accès tiers et rançongiciel sur le NMS;SR4 Crime organisé;7;7;1.0;V2 Vraisemblable;V3 Très vraisemblable;+1;G4 Critique;Moyen;Élevé
+SO2;Usurpation de session et injection de configurations malveillantes;SR4 Crime organisé;8;6;0.75;V2 Vraisemblable;V3 Très vraisemblable;+1;G4 Critique;Moyen;Élevé
+SO3;Compromission d'un compte cloud et collecte d'informations;SR5 Groupe étatique;6;5;0.83;V2 Vraisemblable;V3 Très vraisemblable;+1;G4 Critique;Moyen;Élevé
+SO4;Hameçonnage ciblé et vol de jetons de session d'administration;SR5 Groupe étatique;8;7;0.88;V2 Vraisemblable;V3 Très vraisemblable;+1;G4 Critique;Moyen;Élevé
+SO5;Altération interne des journaux et données de supervision;SR7 Collaborateur malveillant;5;4;0.8;V3 Très vraisemblable;V4 Certain;+1;G4 Critique;Élevé;Élevé
+SO6;Divulgation et revente de données sensibles;SR8 Ancien employé;6;5;0.83;V2 Vraisemblable;V3 Très vraisemblable;+1;G4 Critique;Moyen;Élevé

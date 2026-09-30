@@ -1,0 +1,31 @@
+﻿mitigation;nom;nb_techniques;nb_scenarios;scenarios;techniques
+M1018;User Account Management;6;6;SO1, SO2, SO3, SO4, SO5, SO6;T1048, T1059.008, T1078, T1078.004, T1087, T1548
+M1017;User Training;4;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004, T1539, T1566
+M1026;Privileged Account Management;4;6;SO1, SO2, SO3, SO4, SO5, SO6;T1059.008, T1078, T1078.004, T1548
+M1032;Multi-factor Authentication;4;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004, T1133, T1539
+M1022;Restrict File and Directory Permissions;3;6;SO1, SO2, SO3, SO4, SO5, SO6;T1048, T1070, T1548
+M1013;Application Developer Guidance;2;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004
+M1015;Active Directory Configuration;2;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004
+M1027;Password Policies;2;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004
+M1036;Account Use Policies;2;6;SO1, SO2, SO3, SO4, SO5, SO6;T1078, T1078.004
+M1030;Network Segmentation;3;5;SO1, SO2, SO3, SO4, SO6;T1048, T1133, T1602.002
+M1031;Network Intrusion Prevention;3;5;SO1, SO2, SO3, SO4, SO6;T1048, T1566, T1602.002
+M1051;Update Software;3;5;SO1, SO2, SO3, SO4, SO6;T1539, T1548, T1602.002
+M1054;Software Configuration;3;5;SO1, SO2, SO3, SO4, SO6;T1539, T1566, T1602.002
+M1028;Operating System Configuration;2;5;SO1, SO2, SO3, SO4, SO6;T1087, T1548
+M1021;Restrict Web-Based Content;5;4;SO1, SO2, SO4, SO6;T1059.008, T1133, T1539, T1566, T1567
+M1047;Audit;4;4;SO1, SO2, SO3, SO4;T1059.008, T1539, T1548, T1566
+M1038;Execution Prevention;2;4;SO1, SO2, SO3, SO4;T1059.008, T1548
+M1041;Encrypt Sensitive Information;2;4;SO3, SO4, SO5, SO6;T1070, T1602.002
+M1052;User Account Control;1;4;SO1, SO2, SO3, SO4;T1548
+M1057;Data Loss Prevention;3;3;SO3, SO4, SO6;T1005, T1048, T1567
+M1037;Filter Network Traffic;2;3;SO3, SO4, SO6;T1048, T1602.002
+M1049;Antivirus/Antimalware;2;3;SO1, SO2, SO4;T1059.008, T1566
+M1056;Pre-compromise;1;3;SO1, SO2, SO3;T1595
+M1040;Behavior Prevention on Endpoint;2;2;SO1, SO2;T1059.008, T1486
+M1042;Disable or Remove Feature or Program;2;2;SO1, SO2;T1059.008, T1133
+M1035;Limit Access to Resource Over Network;1;2;SO1, SO2;T1133
+M1029;Remote Data Storage;1;1;SO5;T1070
+M1033;Limit Software Installation;1;1;SO2;T1059.008
+M1045;Code Signing;1;1;SO2;T1059.008
+M1053;Data Backup;1;1;SO1;T1486
